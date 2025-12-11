@@ -1,0 +1,66 @@
+.ubicacion-section {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(180deg, #FFF8EE 0%, #ffffff 100%);
+}
+
+.ubicacion-titulo {
+  font-size: 42px;
+  font-weight: 800;
+  color: #4e6b1f;
+  margin-bottom: 10px;
+}
+
+.ubicacion-sub {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 35px;
+}
+
+.mapa-wrapper {
+  width: 100%;
+  max-width: 900px;
+  height: 420px;
+  margin: 0 auto 40px auto;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0px 10px 35px rgba(0,0,0,0.15);
+}
+
+.mapa-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.boton-llegar {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #4e6b1f;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.boton-llegar:hover {
+  background: #3c5317;
+  transform: scale(1.04);
+}
+
+/* Animaciones */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeIn { to { opacity: 1; } }
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }

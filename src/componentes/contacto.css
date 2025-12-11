@@ -1,0 +1,107 @@
+.footer {
+  background: #febe56; 
+  color: #2e3a00;     
+  padding: 50px 20px 20px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  
+}
+
+.footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Logo  */
+.footer-logo img {
+  width: 170px;
+  margin-bottom: 20px;
+  font-size: 50px;  
+}
+
+/* Bloques */
+.footer-bloque h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #2e3a00;
+  font-weight: 800;
+  border-bottom: 3px solid #2e3a00;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* Teléfonos */
+.telefono-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2e3a00;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.telefono-item:hover {
+  transform: translateX(5px);
+  color: #4e6210;
+}
+
+/* Redes Sociales */
+.red-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2e3a00;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.red-item:hover {
+  transform: translateX(5px);
+  color: #4e6210;
+}
+
+/* Copyright */
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #2e3a00;
+}
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .telefono,
+  .red {
+    justify-content: center;
+  }
+}
+@keyframes aparecer {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

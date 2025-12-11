@@ -1,0 +1,95 @@
+.plan-page {
+  display: flex;
+  padding: 50px 20px 0 20px;
+  gap: 40px;
+  align-items: flex-start;
+  height: 80vh;
+  padding-top: 0;        
+  margin-top: 110px;
+}
+
+
+.plan-left {
+  width: 50%;
+   height: 80vh;
+  padding-top: 0;        
+  margin-top: 20px;
+}
+
+
+.plan-text {
+  width: 50%;
+}
+
+.plan-text h2 {
+  font-size: 40px;
+  color: #88a66f;
+  font-weight: 900;
+}
+
+.plan-text h3 {
+  color: #bd862e;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.plan-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #626262;
+  max-width: 500px;
+  text-align: left;
+}
+
+.importante {
+  font-weight: bold;
+  color: #d94c7c;
+}
+
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  background: #5a7f32;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #496829;
+  transform: translateY(-3px);
+}
+
+
+/* SOLO CELULARES*/
+@media (max-width: 900px) {
+
+  .plan-page {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 130px;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .plan-text {
+    order: 1;
+    width: 100%;
+  }
+
+  .plan-left {
+    order: 2;
+    width: 100%;
+  }
+
+  .back-btn {
+    order: 3;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    align-self: center;
+  }
+}

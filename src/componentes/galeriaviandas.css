@@ -1,0 +1,11 @@
+.gallery-container {
+  width: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .gallery-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+.about-section {
+  background: #FFF8EE;
+  text-align: center;
+  padding: 40px 20px 0 20px;
+  height: 100%;
+}
+.about-logo {
+  height: auto;
+  font-family: "Arial Black", sans-serif;
+  font-size: 42px;
+  color: #6B8E23;
+  margin-bottom: 20px;
+}
+
+
+.about-titulo {
+  font-size: 42px;
+  color: #6B8E23;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.about-texto {
+  max-width: 900px;
+  margin: 0 auto 25px auto;
+  font-size: 22px;
+  color: #3B2F1E;
+  line-height: 1.5;
+}
+
+.about-texto.highlight {
+  font-weight: bold;
+}
+
+.about-banner {
+  background: #6b8e23;
+  color: white;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
