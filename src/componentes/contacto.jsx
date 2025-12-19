@@ -20,7 +20,7 @@ export default function Contacto() {
 
   return (
     <footer ref={footerRef} className="footer" id="contacto">
-      <div className="footer-contanedor">
+      <div className="footer-container">
 
         
         <div className="footer-logo">

@@ -13,7 +13,7 @@
   transform: translateY(0);
 }
 
-.footer-contanedor {
+.footer-container {
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -82,7 +82,7 @@
   color: #2e3a00;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
     text-align: center;

@@ -23,12 +23,14 @@ body {
     overflow-x: hidden;
   }
 
-  
+  .navbar,
+  .contacto-form,
   .hero-galeria,
   .plan-left,
   .galeria-container,
   .mapa-wrap,
   .footer,
+  .footercontainer,
   .footer-inner {
     max-width: 100%;
     overflow: hidden;
