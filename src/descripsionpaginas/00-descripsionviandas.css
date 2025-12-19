@@ -1,4 +1,4 @@
-.plan-page {
+.plan-pagina {
   display: flex;
   padding: 50px 20px 0 20px;
   gap: 40px;
@@ -9,7 +9,7 @@
 }
 
 
-.plan-left {
+.plan-galeria {
   width: 50%;
    height: 80vh;
   padding-top: 0;        
@@ -17,23 +17,23 @@
 }
 
 
-.plan-text {
+.plan-texto {
   width: 50%;
 }
 
-.plan-text h2 {
+.plan-texto h2 {
   font-size: 40px;
   color: #88a66f;
   font-weight: 900;
 }
 
-.plan-text h3 {
+.plan-texto h3 {
   color: #bd862e;
   font-size: 26px;
   margin-bottom: 20px;
 }
 
-.plan-text p {
+.plan-texto p {
   font-size: 15px;
   line-height: 1.6;
   color: #626262;
@@ -47,7 +47,7 @@
 }
 
 
-.back-btn {
+.atras-btn {
   display: inline-block;
   margin-top: 30px;
   background: #5a7f32;
@@ -65,10 +65,9 @@
 }
 
 
-/* SOLO CELULARES*/
 @media (max-width: 900px) {
 
-  .plan-page {
+  .plan-pagina {
     display: flex !important;
     flex-direction: column !important;
     margin-top: 130px;
@@ -76,17 +75,17 @@
     align-items: center;
   }
 
-  .plan-text {
+  .plan-texto {
     order: 1;
     width: 100%;
   }
 
-  .plan-left {
+  .plan-galeria {
     order: 2;
     width: 100%;
   }
 
-  .back-btn {
+  .atras-btn {
     order: 3;
     margin-top: 10px;
     margin-bottom: 40px;

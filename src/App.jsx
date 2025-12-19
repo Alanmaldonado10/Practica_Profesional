@@ -25,7 +25,6 @@ export default function App() {
 
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          {/* Página principal */}
           <Route
             path="/"
             element={
@@ -39,7 +38,7 @@ export default function App() {
             }
           />
 
-          {/* Páginas individuales */}
+             Páginas individuales 
           <Route
             path="/vianda-saludable"
             element={

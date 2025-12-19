@@ -15,12 +15,12 @@ export default function ViandaTradicional() {
   ];
 
   return (
-    <section className="plan-page">
-      <div className="plan-left">
+    <section className="plan-pagina">
+      <div className="plan-galeria">
         <PlanGallery images={images} />
       </div>
 
-      <div className="plan-text">
+      <div className="plan-texto">
         <h2>Tradicional</h2>
         <h3>Perfectas para disfrutar comidas clásicas con el sabor de siempre.</h3>
         <p>
@@ -33,7 +33,7 @@ export default function ViandaTradicional() {
           De lunes a sábados, cada vianda incluye la comida completa, el pan
           y la entrega en el lugar que usted indique
         </p>
-        <Link to="/" className="back-btn">
+        <Link to="/" className="atras-btn">
           ← Volver atrás
         </Link>
       </div>

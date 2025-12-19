@@ -1,11 +1,11 @@
 import "./quienessomos.css";
 export default function QuienesSomos() {
   return (
-    <section className="about-section" id="quienes-somos">
-    <h2 className="about-logo">La Mies Viandas</h2>
-      <h3 className="about-titulo">¿Quiénes somos?</h3>
+    <section className="quienes-secsion" id="quienes-somos">
+    <h2 className="quienes-logo">La Mies Viandas</h2>
+      <h3 className="quienes-titulo">¿Quiénes somos?</h3>
 
-      <div className="about-texto">
+      <div className="quienes-texto">
         <p >
             Somos un emprendimiento familiar con 4 años de experiencia dedicado a preparar viandas caseras, ricas y equilibradas para el día a día. Nacimos con la idea de acompañarte con comidas que se sientan como hechas en casa: frescas, abundantes y pensadas con dedicación.
         </p><br />
@@ -18,11 +18,11 @@ export default function QuienesSomos() {
       </div>
       
 
-      <p className="about-texto highlight">
+      <p className="quienes-texto1">
         ¡Tu rutina merece este sabor!
       </p>
 
-      <div className="about-banner">
+      <div className="quienes-banner">
         Nuestros Menús
       </div>
     </section>

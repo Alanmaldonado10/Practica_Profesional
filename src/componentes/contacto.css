@@ -13,7 +13,7 @@
   transform: translateY(0);
 }
 
-.footer-container {
+.footer-contanedor {
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -22,14 +22,14 @@
   align-items: flex-start;
 }
 
-/* Logo  */
+
 .footer-logo img {
   width: 170px;
   margin-bottom: 20px;
   font-size: 50px;  
 }
 
-/* Bloques */
+
 .footer-bloque h3 {
   font-size: 26px;
   margin-bottom: 15px;
@@ -40,7 +40,7 @@
   padding-bottom: 4px;
 }
 
-/* Teléfonos */
+
 .telefono-item {
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@
   color: #4e6210;
 }
 
-/* Redes Sociales */
+
 .red-item {
   display: flex;
   align-items: center;
@@ -74,14 +74,14 @@
   color: #4e6210;
 }
 
-/* Copyright */
-.footer-bottom {
+
+.footer-boton {
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
   color: #2e3a00;
 }
-/* Responsive */
+
 @media (max-width: 900px) {
   .footer-container {
     flex-direction: column;

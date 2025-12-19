@@ -15,12 +15,12 @@ export default function ViandaSaludable() {
   ];
 
   return (
-    <section className="plan-page">
-      <div className="plan-left">
+    <section className="plan-pagina">
+      <div className="plan-galeria">
         <PlanGallery images={images} />
       </div>
 
-      <div className="plan-text">
+      <div className="plan-texto">
         <h2>Saludable</h2>
         <h3>La mejor opción para cuidar tu alimentación sin resignar sabor</h3>
         <p>
@@ -35,7 +35,7 @@ export default function ViandaSaludable() {
           y la entrega en el lugar que usted indique
         </p>
 
-        <Link to="/" className="back-btn">
+        <Link to="/" className="atras-btn">
           ← Volver atrás
         </Link>
       </div>

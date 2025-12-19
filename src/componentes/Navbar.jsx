@@ -13,9 +13,9 @@ export default function Navbar() {
   };
 
   const handleClick = (e, id) => {
-    e.preventDefault();        // ❌ que no cambie la URL a #quienes-somos
-    setOpen(false);            // cierra el menú móvil si estaba abierto
-    scrollToSection(id);       // ✅ hace scroll suave a la sección
+    e.preventDefault();        
+    setOpen(false);            
+    scrollToSection(id);       
   };
 
   return (
@@ -32,7 +32,7 @@ export default function Navbar() {
         </a>
       </div>
 
-      {/* MENU DESKTOP */}
+    
       <nav className="menu">
         <a href="#quienes-somos" onClick={(e) => handleClick(e, "quienes-somos")}>
           ¿Quiénes somos?
@@ -48,13 +48,13 @@ export default function Navbar() {
         </a>
       </nav>
 
-      {/* Icono celular */}
-      <div className="hamburger" onClick={() => setOpen(!open)}>
-        <i className="fas fa-bars"></i>
+      
+      <div className="hamburguesa" onClick={() => setOpen(!open)}>
+        <i className="treslineas"></i>
       </div>
 
-      {/* Menu desplegable celular */}
-      <div className={`mobile-menu ${open ? "open" : ""}`}>
+      
+      <div className={`tel-menu ${open ? "open" : ""}`}>
         <a href="#quienes-somos" onClick={(e) => handleClick(e, "quienes-somos")}>
           ¿Quiénes somos?
         </a>

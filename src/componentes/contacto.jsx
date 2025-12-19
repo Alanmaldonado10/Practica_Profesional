@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./contacto.css";
-import Logo from "../assets/logo.png"; // AJUSTÁ EL PATH SI ES NECESARIO
+import Logo from "../assets/logo.png"; 
 
 export default function Contacto() {
   const footerRef = useRef(null);
@@ -20,14 +20,14 @@ export default function Contacto() {
 
   return (
     <footer ref={footerRef} className="footer" id="contacto">
-      <div className="footer-container">
+      <div className="footer-contanedor">
 
-        {/* Logo */}
+        
         <div className="footer-logo">
           <img src={Logo} alt="La Mies Viandas" />
         </div>
 
-        {/* Teléfonos */}
+        
         <div className="footer-bloque">
           <h3>Teléfonos</h3>
 
@@ -48,7 +48,7 @@ export default function Contacto() {
           </a>
         </div>
 
-        {/* Redes Sociales */}
+      
         <div className="footer-bloque">
           <h3>Redes Sociales</h3>
 
@@ -70,8 +70,8 @@ export default function Contacto() {
         </div>
       </div>
 
-      {/* Copyright */}
-      <div className="footer-bottom">
+      
+      <div className="footer-boton">
         © 2025 — La Mies Viandas. Todos los derechos reservados.
       </div>
     </footer>

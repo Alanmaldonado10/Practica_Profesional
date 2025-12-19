@@ -4,14 +4,14 @@ import "./hero.css";
 export default function Hero() {
   return (
     <>
-      <section className="hero hero-con-galeria">
+      <section className="hero">
         <div className="hero-overlay"></div>
 
         <div className="hero-galeria">
           <Galeria />
         </div>
 
-        <div className="hero-content">
+        <div className="hero-contenido">
           <h2>VIANDAS PARA TODOS LOS GUSTOS</h2>
           <p>¡QUE TUS DÍAS TENGAN SABOR!</p>
         </div>
