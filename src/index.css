@@ -16,7 +16,7 @@ body {
  font-family: "Arial", sans-serif;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360x800px) {
 
   html, body, #root {
     width: 100%;
