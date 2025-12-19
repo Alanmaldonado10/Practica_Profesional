@@ -1,4 +1,4 @@
-.ubicacion-secsion {
+.ubicacion-section {
   text-align: center;
   padding: 90px 20px;
   background: linear-gradient(180deg, #FFF8EE 0%, #ffffff 100%);
@@ -17,7 +17,7 @@
   margin-bottom: 35px;
 }
 
-.mapas{
+.mapa-wrapper {
   width: 100%;
   max-width: 900px;
   height: 420px;
@@ -27,7 +27,7 @@
   box-shadow: 0px 10px 35px rgba(0,0,0,0.15);
 }
 
-.mapas iframe {
+.mapa-wrapper iframe {
   width: 100%;
   height: 100%;
   border: none;

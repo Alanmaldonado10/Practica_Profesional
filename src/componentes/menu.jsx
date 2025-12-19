@@ -8,9 +8,9 @@ import img4 from "../img/comida9.jpg";
 
 export default function Menus() {
   return (
-    <section className="menu" id="menus">
+    <section className="menus-section" id="menus">
       <div className="menus-grid">
-        <div className="menu saludable">
+        <div className="menu-card saludable">
           <h3>Vianda Saludable</h3><br />
           <div className="menu-img"><img src={img1} alt="" /></div>
           <p>
@@ -24,7 +24,7 @@ export default function Menus() {
         </div>
 
         
-        <div className="menu tradicional">
+        <div className="menu-card tradicional">
           <h3>Vianda Tradicional</h3><br />
           <div className="menu-img"><img src={img2} alt="" /></div>
           <p>
@@ -38,7 +38,7 @@ export default function Menus() {
         </div>
 
         
-        <div className="menu adolescente">
+        <div className="menu-card adolescente">
           <h3>Vianda Adolescente</h3><br />
           <div className="menu-img"><img src={img3} alt="" /></div>
           <p>
@@ -51,7 +51,7 @@ export default function Menus() {
         </div>
 
       
-        <div className="menu especial">
+        <div className="menu-card especial">
           <h3>Vianda Especial</h3><br />
           <div className="menu-img"><img src={img4} alt="" /></div>
           <p>

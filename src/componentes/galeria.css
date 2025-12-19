@@ -13,12 +13,12 @@
   object-fit: cover;  
 }
 
-/* Quitar fondo del componente */
+
 .image-gallery {
   background: transparent !important;
 }
 
-/* Para evitar bordes blancos del slider */
+
 .image-gallery-content,
 .image-gallery-slide-wrapper {
   height: 100%;
